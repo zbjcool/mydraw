@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T10:39:16.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="88Ew2Ak3uRfBGkMXD6Kz" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T10:43:34.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="SmGGIE2rcdUgI34dYlG7" version="22.0.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="954" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
@@ -58,11 +58,26 @@
         <mxCell id="PNEzz4ztSn_GB-Nwg4ay-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PNEzz4ztSn_GB-Nwg4ay-65" target="PNEzz4ztSn_GB-Nwg4ay-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PNEzz4ztSn_GB-Nwg4ay-65" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="960" width="30" height="60" as="geometry" />
+        <object label="Actor" id="PNEzz4ztSn_GB-Nwg4ay-65">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="330" y="960" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="PNEzz4ztSn_GB-Nwg4ay-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="PNEzz4ztSn_GB-Nwg4ay-67" target="PNEzz4ztSn_GB-Nwg4ay-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNEzz4ztSn_GB-Nwg4ay-78" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PNEzz4ztSn_GB-Nwg4ay-75">
+          <mxGeometry x="-0.2728" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PNEzz4ztSn_GB-Nwg4ay-67" value="设置word模板" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="955" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PNEzz4ztSn_GB-Nwg4ay-76" value="上传world模板" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="950" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
